@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
-
-    <ul>
+    <ul class="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -21,30 +23,54 @@
 
     <h1>Entre em contato comigo :)</h1>
 
-    <form>
+    <section class="contato">
+        <div class="formulario">
+        <form>
+        <div>
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome">
-        <br>
-        <br>
+        </div>
+        <div>
         <label for="email">E-mail:</label><br>
         <input type="email" id="email">
-        <br>
-        <br>
+        </div>
+        <div>
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-
-        <h2>Endereço:</h2>
-        <p>Rua Alcindo Guanabara, 36, Vila Mariana</p>
-        <p>São Paulo - SP</p>
-
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6587578962562!2d-46.62587518553214!3d-23.58069626819058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d1db2710d%3A0x70ecd997e9db3dc0!2sR.%20Alcindo%20Guanabara%20-%20Jardim%20da%20Gloria%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001546-020!5e0!3m2!1spt-BR!2sbr!4v1647452760011!5m2!1spt-BR!2sbr"
-            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+        <textarea name="assunto" 
+        id="assunto" 
+        cols="60" 
+        rows="5">
+    </textarea>
+    </div>
+        <button class="enviar">Enviar</button>
     </form>
+</div>
+<div class="mapa">
+
+    <p>Rua Alcindo Guanabara, 36, Vila Mariana</p>
+    <p>São Paulo - SP</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6587578962562!2d-46.62587518553214!3d-23.58069626819058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d1db2710d%3A0x70ecd997e9db3dc0!2sR.%20Alcindo%20Guanabara%20-%20Jardim%20da%20Gloria%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001546-020!5e0!3m2!1spt-BR!2sbr!4v1647452760011!5m2!1spt-BR!2sbr"
+        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
+<hr />
+<footer><div>
+    <a href="https://www.facebook.com/rafael.casotti.1/" target="_blank">
+    <img class= "tm-social" src="./assets/img/facebook.png" alt="logo facebook"></a>
+    <a href="https://www.instagram.com/rafaelcasotti/" target="_blank">
+    <img class= "tm-social" src="./assets/img/instagram.png" alt="logo instagram"></a>
+    <a href="https://www.linkedin.com/in/rafaelsantoscasotti/" target="_blank">
+    <img class= "tm-social" src="./assets/img/linkedin.png" alt="logo linkedin"></a>  
+    <a href="https://github.com/RafaelCasotti" target="_blank"> 
+    <img class= "tm-social" src="./assets/img/github.png" alt="logo github"></a> 
+    </div>
+<p>
+    Todos os direitos reservados: Rafael Casotti &copy; 
+</p> 
+</footer>
+    
+
 </body>
 
 </html>
