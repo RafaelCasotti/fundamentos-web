@@ -40,6 +40,7 @@ function validaNome(){
         txtAssunto.innerHTML = 'Texto muito grande, digite no máximo 100 caracteres'
         txtAssunto.style.color= 'red'
         txtAssunto.style.display='block'
+        assuntoOk = false
     } else {
         txtAssunto.style.display='none'
         assuntoOk = true
