@@ -62,12 +62,11 @@ color: gray;
 }
 
 .imagem{
-    width: 15vw;
     border-radius: 50%;
     border: 3px solid rgb(3, 3, 3);
-    padding: 3px;
     height: 250px;
-    width:250px
+    width:250px;
+    
 }
 
 hr {
