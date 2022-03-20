@@ -53,9 +53,9 @@ function validaNome(){
 
         function enviar(){
             if(nomeOk == true && emailOk && assuntoOk == true){
-                alert('Formulário enviado com sucesso! ✔️')
+                alert('Enviado com sucesso! ✔️')
             } else {
-                alert('Preencha o formulário corretamente antes de enviar... ❗')
+                alert('Preencha corretamente antes de enviar... ❗')
             }
         }
 
